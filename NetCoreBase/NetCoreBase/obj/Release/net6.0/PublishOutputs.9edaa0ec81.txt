@@ -1,0 +1,7 @@
+F:\gitHub\BaseWeb_Core\NetCoreBase\NetCoreBase\obj\Release\net6.0\PubTmp\Out\NetCoreBase.exe
+F:\gitHub\BaseWeb_Core\NetCoreBase\NetCoreBase\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+F:\gitHub\BaseWeb_Core\NetCoreBase\NetCoreBase\obj\Release\net6.0\PubTmp\Out\appsettings.json
+F:\gitHub\BaseWeb_Core\NetCoreBase\NetCoreBase\obj\Release\net6.0\PubTmp\Out\NetCoreBase.dll
+F:\gitHub\BaseWeb_Core\NetCoreBase\NetCoreBase\obj\Release\net6.0\PubTmp\Out\NetCoreBase.deps.json
+F:\gitHub\BaseWeb_Core\NetCoreBase\NetCoreBase\obj\Release\net6.0\PubTmp\Out\NetCoreBase.runtimeconfig.json
+F:\gitHub\BaseWeb_Core\NetCoreBase\NetCoreBase\obj\Release\net6.0\PubTmp\Out\NetCoreBase.pdb

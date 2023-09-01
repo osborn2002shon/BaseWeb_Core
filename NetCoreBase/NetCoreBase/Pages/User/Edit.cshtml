@@ -1,0 +1,75 @@
+﻿@page
+@model NetCoreBase.Pages.User.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>SystemUserAccount</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SystemUserAccount.AccountId" />
+            <div class="form-group">
+                <label asp-for="SystemUserAccount.AuTypeId" class="control-label"></label>
+                <input asp-for="SystemUserAccount.AuTypeId" class="form-control" />
+                <span asp-validation-for="SystemUserAccount.AuTypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemUserAccount.Account" class="control-label"></label>
+                <input asp-for="SystemUserAccount.Account" class="form-control" />
+                <span asp-validation-for="SystemUserAccount.Account" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemUserAccount.Password" class="control-label"></label>
+                <input asp-for="SystemUserAccount.Password" class="form-control" />
+                <span asp-validation-for="SystemUserAccount.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemUserAccount.Name" class="control-label"></label>
+                <input asp-for="SystemUserAccount.Name" class="form-control" />
+                <span asp-validation-for="SystemUserAccount.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemUserAccount.Email" class="control-label"></label>
+                <input asp-for="SystemUserAccount.Email" class="form-control" />
+                <span asp-validation-for="SystemUserAccount.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemUserAccount.Unit" class="control-label"></label>
+                <input asp-for="SystemUserAccount.Unit" class="form-control" />
+                <span asp-validation-for="SystemUserAccount.Unit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemUserAccount.Mobile" class="control-label"></label>
+                <input asp-for="SystemUserAccount.Mobile" class="form-control" />
+                <span asp-validation-for="SystemUserAccount.Mobile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SystemUserAccount.Memo" class="control-label"></label>
+                <input asp-for="SystemUserAccount.Memo" class="form-control" />
+                <span asp-validation-for="SystemUserAccount.Memo" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="SystemUserAccount.IsActive" /> @Html.DisplayNameFor(model => model.SystemUserAccount.IsActive)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

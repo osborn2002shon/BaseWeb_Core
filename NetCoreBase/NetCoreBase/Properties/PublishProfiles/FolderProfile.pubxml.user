@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-09-01T09:05:30.8268599Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Models/IftWebBaseContext.cs">
+      <publishTime>09/01/2023 18:51:08</publishTime>
+    </File>
+    <File Include="Models/SystemMenu.cs">
+      <publishTime>09/01/2023 18:51:08</publishTime>
+    </File>
+    <File Include="Models/SystemMenuAu.cs">
+      <publishTime>09/01/2023 18:51:08</publishTime>
+    </File>
+    <File Include="Models/SystemTaiwan.cs">
+      <publishTime>09/01/2023 18:51:08</publishTime>
+    </File>
+    <File Include="Models/SystemUserAccount.cs">
+      <publishTime>09/01/2023 18:51:08</publishTime>
+    </File>
+    <File Include="Models/SystemUserAuType.cs">
+      <publishTime>09/01/2023 18:51:08</publishTime>
+    </File>
+    <File Include="Models/SystemUserLog.cs">
+      <publishTime>09/01/2023 18:51:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

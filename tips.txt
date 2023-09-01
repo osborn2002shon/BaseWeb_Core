@@ -1,0 +1,5 @@
+【以下指令可以將DB的物件全部產生成model】
+scaffold-DBContext "Data Source={SQL資料庫IP};Initial Catalog={資料庫名稱};User ID={帳號};Password={密碼};TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/EF
+
+- 當連線SQL Server出現憑證問題時需要在connect string裡增加TrustServerCertificate=true
+- 當要強制將SQL Server的schema更新到本地時，指令需要下-force
